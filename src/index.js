@@ -54,6 +54,7 @@ ReactDom.render(
       <Route path="/Kobra" element={<Kobra />}/>
       <Route path="/Suits" element={<Suits />}/>
       <Route path="/Genre" element={<Genre />} />
+      
 
     </Routes>
     <Last />

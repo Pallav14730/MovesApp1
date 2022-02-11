@@ -18,7 +18,7 @@ const Footer = () => {
             </b></a></li>
             <li className="front"><input className="input" type="search" placeholder="Search" /></li>
             <li className="front"><button className="button-sea">Search</button></li>
-            <li className="front"><AiFillBulb onClick={mode} /></li>
+            <li className="front"><AiFillBulb onClick={mode}  /></li>
             <li className="front"><NavLink className="login-page" to="/Sign">Log in/Sign Up</NavLink></li>
         </div>
 

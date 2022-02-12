@@ -1,6 +1,12 @@
-
+body{
+  text-align: center;
+  /* color: grey; */
+  
+}
 .logo-title{
     color: red;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue';
     text-decoration: none;
     font-size: 32px;
     margin-left: 40px;
@@ -29,7 +35,12 @@
 }
 .home1{
   text-decoration: none;
+  /* text-align: center; */
+  width: 100px;
   color: black;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue';
+  
   margin-bottom:60px;
 }
 .home{
@@ -37,11 +48,22 @@
     margin: 80px;
     cursor: pointer;
 }
+.navigation{
+  /* width: 100%; */
+  height:40px;
+  padding: 10px;
+  padding-left: 60px;
+  /* height: 300px; */
+  object-fit: contain;
+
+}
 .Nav_bar{
-    background-color: green;
+    /* background-color: rgb(252, 248, 10); */
+    background-color: grey;
     margin: -10px;
-    padding: 20px;
-    text-align: center;
+    padding: 10px;
+    display: inline-block;
+    /* width: 100%; */
 }
 .front{
   /* width: 200px; */
@@ -75,6 +97,11 @@
 }
 .home1:hover{
     color: red;
+    text-decoration: underline;
+    text-decoration-color: blue;
+    text-decoration-thickness: 2px;
+
+    /* padding-bottom:10px; */
 }
 .movie1{
   display: inline-block;
@@ -117,18 +144,21 @@
 .button{
   background-color: white;
   padding: 10px; 
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue';
   /*  padding: 10px; 
   margin-left: 25px;
   margin-bottom: 30px;
-  margin-top: 30px;
+  
   border: 2px solid green;
   border-radius: 15px 15px;
   width:90px; */
+  /* margin-bo: 30px; */
   border-radius: 15px 15px;
   text-align: center;
   margin-left:4%;
   margin-top: 15%;
-  margin-bottom: 25%;
+  margin-bottom: 29%;
   width:92%;
   height: 35px;
   color: blue;

@@ -4,7 +4,7 @@ import { NavLink } from "react-router-dom";
 
 function Navigation() {
     return (
-        <div>
+        <div className="navigation">
             <ul className="Nav_bar">
 
                 <li className="home">
